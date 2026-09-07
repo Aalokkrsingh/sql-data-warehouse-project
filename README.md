@@ -10,7 +10,7 @@ This repository demonstrates an end-to-end data warehousing and analytics soluti
 
 The project follows the **Medallion Architecture** using three layers:
 
-![Data Architecture](docs/Data_Architecture)
+![Data Architecture](docs/Data_Architecture.png)
 
 1. **Bronze Layer** – Stores raw data ingested from source CSV files into SQL Server.
 2. **Silver Layer** – Cleanses, standardizes, and transforms the data for consistency and quality.
