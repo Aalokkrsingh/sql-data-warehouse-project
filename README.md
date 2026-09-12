@@ -18,6 +18,30 @@ The project follows the **Medallion Architecture** using three layers:
 
 ---
 
+## 🔄 Data Flow
+
+The diagram below shows how data moves from source systems through each layer of the warehouse.
+
+![Data Flow](docs/Data_Flow_Diagram.png)
+
+---
+
+## 🔗 Data Integration
+
+This diagram shows how the CRM and ERP source systems are integrated into a unified customer and product view.
+
+![Data Integration](docs/Data_Integration.png)
+
+---
+
+## 🧩 Data Model
+
+The Gold Layer is modeled as a Star Schema, with `fact_sales` connected to `dim_customers` and `dim_products`.
+
+![Data Model](docs/Data_Model.png)
+
+---
+
 ## 📖 Project Overview
 
 This project includes:
@@ -90,6 +114,10 @@ sql-data-warehouse-project/
 ├── datasets/                           # Raw ERP & CRM datasets
 │
 ├── docs/                               # Documentation
+│   ├── Data_Architecture.png
+│   ├── data_flow.png
+│   ├── data_integration.png
+│   ├── data_model.png
 │   ├── etl.drawio
 │   ├── data_architecture.drawio
 │   ├── data_catalog.md
@@ -105,8 +133,7 @@ sql-data-warehouse-project/
 │
 ├── test/
 │
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -128,12 +155,6 @@ If you're interested in learning SQL, Data Warehousing, and Data Engineering, I 
 
 ---
 
-## 🛡️ License
-
-This project is licensed under the **MIT License**. Feel free to use, modify, and share this project while providing appropriate attribution.
-
----
-
 # 🌟 About Me
 
 Hi! I'm **Aalok Kumar Singh**, a BCA (AI & Data Science) student passionate about **Data Engineering, SQL, Data Warehousing, Analytics, and Cloud Technologies**.
@@ -144,8 +165,8 @@ I believe the best way to learn is by building projects that solve real-world pr
 
 ## 🤝 Let's Connect
 
-- 💼 LinkedIn: *www.linkedin.com/in/aalok-kr-singh
-- 💻 GitHub: *https://github.com/Aalokkrsingh/*
-- 📧 Email: *aalokkrsingh27@gmail.com*
+- 💼 LinkedIn: [www.linkedin.com/in/aalok-kr-singh](http://www.linkedin.com/in/aalok-kr-singh)
+- 💻 GitHub: [https://github.com/Aalokkrsingh/](https://github.com/Aalokkrsingh/)
+- 📧 Email: aalokkrsingh27@gmail.com
 
 Thank you for visiting my repository. I hope you find it useful, and I'm always open to learning, collaboration, and feedback.
