@@ -85,7 +85,7 @@ These insights help stakeholders make informed business decisions.
 ## 📂 Repository Structure
 
 ```text
-data-warehouse-project/
+sql-data-warehouse-project/
 │
 ├── datasets/                           # Raw ERP & CRM datasets
 │
@@ -101,13 +101,12 @@ data-warehouse-project/
 │   ├── bronze/
 │   ├── silver/
 │   ├── gold/
+│   ├── init_database.sql
 │
-├── tests/
+├── test/
 │
 ├── README.md
-├── LICENSE
-├── .gitignore
-└── requirements.txt
+└── .gitignore
 ```
 
 ---
